@@ -5,65 +5,134 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
 }
 
-html {
-  overflow-x: hidden;
+.first-nav {
+  display: none;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  margin: auto;
-  overflow-x: hidden;
-  background: #e5e5e5;
-  position: absolute;
+.second-nav {
+  padding-left: 15px;
+}
+
+header {
+  background-image: url(/images/inno.jpeg);
   width: 100%;
+  background-size: 100% 100%;
+  box-shadow: inset 0 0 0 2000px rgb(179 169 169 / 44%);
 }
 
-@media (max-width: 768px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 24px;
-    width: 100%;
-  }
+.homepage {
+  display: flex;
+  flex-direction: flex-start;
+}
 
-  .homepage {
-    background-image: url(./images/homepage.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-  }
+.title {
+  margin: 40px 25px;
+}
 
-  .topic {
-    font-family: "COCOGOOSE", sans-serif;
-    margin: 70px 20px;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 3rem;
-    color: #ec5242;
-    width: 100%;
-  }
+.greeting {
+  font-family: "lato", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #ec5242;
+}
 
-  .lorem {
-    margin: 20px;
-    font-family: "poppins", sans-serif;
-    color: #272a31;
-    font-size: 1.5rem;
-    font-weight: 1rem;
-    border: 10px #ec5242 solid;
-  }
+.topic {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 2rem;
+  background-image: url(/images/matrix.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ec5242;
+}
 
-  .quote {
-    font-style: "poppin", sans-serif;
-    font-size: 1.7rem;
-  }
+.introduction {
+  font-family: "lato", sans-serif;
+  color: #272a31;
+  border: 3px #fff solid;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: rgba(240, 248, 255, 0.397);
+  padding: 15px;
+}
 
-  .event-date {
-    font-family: 'poppins' , sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-  }
+.event-date {
+  padding-top: 20px;
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.event-address {
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+/* MAIN PROGRAM SESSION  */
+
+.program-content {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/eventcontent.jpg);
+  align-items: center;
+}
+
+.program-list {
+  font-family: "lato", sans-serif;
+  color: white;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.event-topics {
+  font-family: "lato", sans-serif;
+  color: #ec5242;
+  padding: 1rem;
+}
+
+.content-box {
+  margin: 20px 40px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  padding: 1.5rem;
+  background-color: rgba(2, 9, 15, 0.726);
+  margin-bottom: 10px;
+}
+
+.pics {
+  width: 100px;
+  height: 100px;
+}
+
+.topic-info {
+  color: #fff;
+  font-family: "lato", sans-serif;
+  font-size: 0.9rem;
+}
+
+.line1 {
+  width: 40px;
+  border: 1px #ec5242 solid;
+  margin-top: 6px;
+}
+
+.join-event {
+  background-color: #ec5242;
+  width: 20rem;
+  height: 5rem;
+}
+
+.join {
+    color: #fff;
+    padding: 1rem;
+    font-family: "COCOGOOSE" , sans-serif;
+    font-size: 1rem;
 }
