@@ -13,6 +13,7 @@ Additional description about the project and its features.
 - Html
 - css
 - Javascript
+- Github
 
 ## Getting Started
 
@@ -46,7 +47,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 - Microverse
 - Cindy Shin, GUI & Graphic Designer
-- Figma template
 - Hat tip to anyone whose code was used
 - etc
 
