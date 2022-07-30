@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&display=swap");
-
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 
 * {
@@ -26,6 +25,7 @@
   .nav2 {
     display: none;
   }
+
   .homepage {
     display: flex;
     flex-direction: flex-start;
@@ -142,6 +142,73 @@
     font-size: 1rem;
   }
 
+  /* ----------------------------------Featured speaker section ----------------------------------------------------- */
+  .speaker {
+    margin-top: 15%;
+  }
+
+  .section-team {
+    margin-left: 30px;
+  }
+
+  .section-team .heading-two {
+    padding-top: 4.8rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+
+  .team-member {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+  }
+
+  .speaker-head {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    padding-left: 25%;
+    margin-top: 5%;
+  }
+
+  .member-img-main {
+    background-image: url(./images/board-gray.png);
+    background-size: cover;
+    margin-bottom: 50px;
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+  }
+
+  .member-img {
+    width: 100px;
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+
+  .member-content {
+    padding-top: 1.5rem;
+    gap: 1.8rem;
+  }
+
+  .member-name {
+    font-size: 1.5rem;
+  }
+
+  .member-job {
+    font-size: 1.4rem;
+    color: #ec5242;
+    display: grid;
+  }
+
+  .member-text {
+    font-size: 1.5rem;
+  }
+
+  .member1 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
   .sponsors {
     width: 100px;
     height: 100px;
@@ -176,6 +243,7 @@
     padding: 30px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .first-nav {
     margin: 0;
@@ -188,6 +256,7 @@
     justify-content: flex-end;
     color: #fff;
     background-color: black;
+    height: 37px;
   }
 
   .topnav {
@@ -195,6 +264,7 @@
     padding: 8px 19px 8px 0;
     flex-direction: row;
     z-index: 1;
+    font-size: 1.5rem;
   }
 
   .nav2 {
@@ -242,8 +312,8 @@
   .nav2logo {
     background-image: url(/images/youth-icon-png-9.jpg);
     position: relative;
-    height: 50px;
-    width: 60px;
+    height: 10px;
+    width: 47px;
     background-size: 100% 100%;
     padding-left: 0;
   }
@@ -368,6 +438,57 @@
     padding: 1rem;
     font-family: "COCOGOOSE", sans-serif;
     font-size: 1rem;
+  }
+
+  .member1 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
+  .team-container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }
+
+  .speaker {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-member {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+  }
+
+  .member-img {
+    width: 100px;
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+
+  .member-content {
+    text-align: left;
+    margin-top: 10%;
+  }
+
+  .member-job {
+    color: #ec5242;
+  }
+
+  .speaker-head {
+    font-size: 2.6rem;
+    line-height: 1.2;
+  }
+
+  .section-team {
+    padding-top: 4.8rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
   }
 
   .wholeprogram {
