@@ -95,7 +95,7 @@ body {
     font-weight: 1000;
     font-style: normal;
     font-size: 2rem;
-    background-image: url(/images/matrix.jpeg);
+    background-image: url(./images/matrix.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -163,7 +163,7 @@ body {
   }
 
   .pastimg {
-    background-image: url(/images/pastevent.jpg);
+    background-image: url(./images/pastevent.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 75%;
@@ -295,7 +295,7 @@ body {
     font-weight: 1000;
     font-style: normal;
     font-size: 2rem;
-    background-image: url(/images/matrix.jpeg);
+    background-image: url(./images/matrix.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -363,7 +363,7 @@ body {
   }
 
   .pastimg {
-    background-image: url(/images/pastevent.jpg);
+    background-image: url(./images/pastevent.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 28rem;

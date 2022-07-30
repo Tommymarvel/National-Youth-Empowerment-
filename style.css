@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 768px) {
   header {
-    background-image: url(/images/inno.jpeg);
+    background-image: url(./images/inno.jpeg);
     width: 100%;
     background-size: 100% 100%;
     box-shadow: inset 0 0 0 2000px rgb(179 169 169 / 44%);
@@ -48,7 +48,7 @@
     font-weight: 1000;
     font-style: normal;
     font-size: 2rem;
-    background-image: url(/images/matrix.jpeg);
+    background-image: url(./images/matrix.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -82,7 +82,7 @@
   .program-content {
     display: flex;
     flex-direction: column;
-    background-image: url(/images/eventcontent.jpg);
+    background-image: url(./images/eventcontent.jpg);
     align-items: center;
   }
 
@@ -303,14 +303,14 @@
   }
 
   header {
-    background-image: url(/images/inno.jpeg);
+    background-image: url(./images/inno.jpeg);
     width: 100%;
     background-size: 100% 100%;
     box-shadow: inset 0 0 0 2000px rgb(179 169 169 / 44%);
   }
 
   .nav2logo {
-    background-image: url(/images/youth-icon-png-9.jpg);
+    background-image: url(./images/youth-icon-png-9.jpg);
     position: relative;
     height: 10px;
     width: 47px;
@@ -341,7 +341,7 @@
     font-weight: 1000;
     font-style: normal;
     font-size: 3rem;
-    background-image: url(/images/matrix.jpeg);
+    background-image: url(./images/matrix.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -377,7 +377,7 @@
   .program-content {
     display: flex;
     flex-direction: column;
-    background-image: url(/images/eventcontent.jpg);
+    background-image: url(./images/eventcontent.jpg);
     align-items: center;
   }
 
