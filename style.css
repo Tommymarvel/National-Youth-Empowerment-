@@ -7,7 +7,7 @@
 }
 
 .second-nav {
-  padding-left: 15px;
+  padding: 10px 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -280,6 +280,7 @@
     justify-content: flex-end;
     justify-items: flex-start;
     padding-right: 30%;
+    padding-right: 15%;
   }
 
   li {
@@ -316,6 +317,7 @@
     width: 47px;
     background-size: 100% 100%;
     padding-left: 0;
+    margin-right: 30%;
   }
 
   .homepage {
@@ -413,6 +415,7 @@
   .pics {
     width: 100px;
     height: 100px;
+    padding-left: 17%;
   }
 
   .topic-info {
