@@ -264,7 +264,7 @@
     padding: 8px 19px 8px 0;
     flex-direction: row;
     z-index: 1;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .nav2 {
@@ -274,12 +274,10 @@
 
   .nav2-content {
     background-color: white;
-    color: black;
     display: flex;
     height: 50px;
     justify-content: flex-end;
     justify-items: flex-start;
-    padding-right: 30%;
     padding-right: 15%;
   }
 
@@ -292,7 +290,27 @@
   }
 
   .nav2list {
-    padding: 10px;
+    font-size: 1rem;
+    color: black;
+  }
+
+  .nav2list1 {
+    color: #ec5242;
+    font-size: 1rem;
+  }
+
+  .nav2list2 {
+    color: #ec5242;
+    border: 3px #ec5242 solid;
+    font-size: 1rem;
+    padding: 5%;
+    margin-left: 60px;
+    height: 25%;
+    margin-top: 4px;
+  }
+
+  .nav2lists {
+    margin-top: 11px;
   }
 
   .mobilemenu {
@@ -313,11 +331,11 @@
   .nav2logo {
     background-image: url(./images/youth-icon-png-9.jpg);
     position: relative;
-    height: 10px;
+    height: 50px;
     width: 47px;
     background-size: 100% 100%;
     padding-left: 0;
-    margin-right: 30%;
+    margin-right: 20%;
   }
 
   .homepage {
