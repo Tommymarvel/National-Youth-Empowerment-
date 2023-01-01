@@ -32,7 +32,7 @@ Here is my repository link: https://github.com/Tommymarvel/FIRST-CAPSTONE-PROJEC
 - Twitter: [@tomiwa_ibironke](https://twitter.com/tomiwa_ibironke) 
 
 ## Live Demo
-[GO LIVE](https://tommymarvel.github.io/FIRST-CAPSTONE-PROJECT/)
+[GO LIVE](https://tommymarvel.github.io/National-Youth-Empowerment-/)
 
 ## 🤝 Contributing
 
