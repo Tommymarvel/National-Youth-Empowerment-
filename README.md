@@ -2,7 +2,7 @@
 
 # Mobile portfolio Project For Microverse By Tommy Marvel
 
-> This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
+> Using HTML, CSS, and JavaScript for maximum functionality, which is used for styling or decorating the webpage, this youth conference program website was constructed to give guests additional information.
 
 
 
